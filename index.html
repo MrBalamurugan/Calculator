@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+ </head>
+
+<script src="index.js"></script>
+
+<body>
+       <h1 style="text-align: center;">Simple Calculator</h1>  
+       <div class="main">
+       <table>
+        <tr>
+            <td colspan="5"><input id="user" placeholder="0"/></td>
+        </tr>
+        <tr>
+            <td><button onclick="give('CL')">CL</button></td>
+            <td><button onclick="give('DEL')">DEL</button></td>
+            <td><button onclick="give('%')">%</button></td>
+            <td><button onclick="give('/')">/</button></td>
+            <td><button onclick="give('sqrt')">sqrt</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="give(7)">7</button></td>
+            <td><button onclick="give(8)">8</button></td>
+            <td><button onclick="give(9)">9</button></td>
+            <td><button onclick="give('*')">*</button></td>
+            <td><button onclick="give('log')">log</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="give(4)">4</button></td>
+            <td><button onclick="give(5)">5</button></td>
+            <td><button onclick="give(6)">6</button></td>
+            <td><button onclick="give('-')">-</button></td>
+            <td><button onclick="give('cos')">cos</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="give(1)">1</button></td>
+            <td><button onclick="give(2)">2</button></td>
+            <td><button onclick="give(3)">3</button></td>
+            <td><button onclick="give('+')">+</button></td>
+            <td><button onclick="give('tan')">tan</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="give('.')">.</button></td>
+            <td><button onclick="give(0)">0</button></td>
+            <td colspan="3"><button onclick="give('=')" class="equal">=</button></td>
+
+        </tr>
+       </table>
+    </div>
+       
+</body>
+</html>
